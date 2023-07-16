@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(120, 0, 0);
+    min-height: 100vh;
+}
+
+.option{
+    background-color: red;
+}
+
+.email{
+    background-color: rgb(233, 72, 72);
+}
+
+.read{
+    background-color: rgb(238, 139, 139);
+}
+
+.bar{
+    background-color: rgb(120, 0, 0);
+}
+
+.navbar-brand, .row{
+    color: aliceblue;
+}
+
+.row{
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.dropdown-menu{
+    background-color:red;
+}
+

@@ -8,19 +8,19 @@
     <title>Document</title>
 </head>
 <body class="w-100">
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg opacity-75">
         <div class="container-fluid bar">
           <a class="navbar-brand" href="#">Your Type</a>
           <div class="searchbar-and-magnifying-glass">
             <form class="d-none d-md-flex" role="search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
+                <button class="btn btn-outline-danger search" type="submit">Search</button>
                 <input class="search-input form-control me-2" type="search" placeholder="type a keyword here" aria-label="Search" data-bs-theme="dark">
                 
             </form>
             <i class="fa-solid fa-magnifying-glass d-flex d-md-none"></i>
         </div>
           <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle   d-md-none d-lg-none" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <button class="btn btn-secondary dropdown-toggle   d-md-none d-lg-none drop" type="button" data-bs-toggle="dropdown" aria-expanded="false">
               Options
             </button>
             <ul class="dropdown-menu">
@@ -37,9 +37,18 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="d-none d-md-flex col-md-4 col-lg-2 option" >Option</div>
-        <div class="col-sm-12 col-md-8 col-lg-4 email">Email</div>
-        <div class="col-sm-12 col-md-12 col-lg-6 read">Read</div>
+        <div class="d-none d-md-flex col-md-4 col-lg-2 option opacity-75 d-flex flex-column" >
+          <button type="button" class="btn btn-light list">Inbox</button>
+          <button type="button" class="btn btn-light list">Important</button>
+          <button type="button" class="btn btn-light list">Sent</button>
+          <button type="button" class="btn btn-light list">Drafts</button>
+          <button type="button" class="btn btn-light list">Spam</button>
+        </div>
+        <div class="col-sm-12 col-md-8 col-lg-4  email">Inbox</div>
+        <div class="col-sm-12 col-md-12 col-lg-6 read opacity-75">
+            <button type="button" class="btn-close" aria-label="Close"></button> 
+        </div>
+        
     </div>
 </div>
 

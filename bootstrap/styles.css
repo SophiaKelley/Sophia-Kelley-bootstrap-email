@@ -1,21 +1,31 @@
 body{
-    background-color: rgb(120, 0, 0);
-    min-height: 100vh;
+    background-image: url(https://images.pexels.com/photos/920985/pexels-photo-920985.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
 }
 
 .option{
-    background-color: red;
+    background-color: rgb(216, 67, 67);
+}
+
+.list{
+    width:100px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 .email{
-    background-color: rgb(233, 72, 72);
+    color:rgb(226, 88, 111);
 }
 
 .read{
     background-color: rgb(238, 139, 139);
 }
 
-.bar{
+.bar, .navbar{
     background-color: rgb(120, 0, 0);
 }
 
@@ -29,6 +39,14 @@ body{
 }
 
 .dropdown-menu{
-    background-color:red;
+    background-color:rgb(212, 62, 62);
 }
 
+.search{
+    color: silver;
+}
+
+.drop{
+    color:red;
+    background-color: aliceblue;
+}

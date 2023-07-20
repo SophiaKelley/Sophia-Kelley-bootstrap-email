@@ -10,13 +10,6 @@ body{
     background-color: rgb(216, 67, 67);
 }
 
-.list{
-    width:100px;
-    height: 40px;
-    margin-top: 10px;
-    margin-left: 20px;
-}
-
 .email{
     color: white;
 }
@@ -69,12 +62,22 @@ z-index: -1;
 
 .profile{
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     margin-left: 25px;
     margin-top: 10px;
 }
 
 .emily {
     margin-left: 10px;
+}
+
+.text{
+margin-top: 10px;
+}
+
+.compose{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: black;
 }

@@ -18,10 +18,9 @@
           <div class="searchbar-and-magnifying-glass">
             <form class="d-none d-md-flex" role="search">
                 <button class="btn btn-outline-danger search" type="submit">Search</button>
-                <input class="search-input form-control me-2" type="search" placeholder="type a keyword here" aria-label="Search" data-bs-theme="dark">
-                
+                <input class="search-input form-control me-2" type="search" placeholder="type a keyword here" aria-label="Search" data-bs-theme="dark">  
             </form>
-            <i class="fa-solid fa-magnifying-glass d-flex d-md-none"></i>
+           
         </div>
 
 <!-- The options panel that is now shrunk into a dropdown menu -->
@@ -48,19 +47,20 @@
 
  <!-- The option area with the other inboxes that you would supposedly use -->
 
-        <div class="d-none d-md-flex col-md-4 col-lg-2 option opacity-75 d-flex flex-column" >
+        <div class="d-none d-md-flex col-md-2 col-lg-2 option opacity-75 d-flex flex-column" >
           <img src="https://images.pexels.com/photos/7443905/pexels-photo-7443905.jpeg" alt="profile picture" class=" profile">
-          <h5 class="emily">Emily Sailor</h5>
-          <button type="button" class="btn btn-light list">Inbox</button>
-          <button type="button" class="btn btn-light list">Important</button>
-          <button type="button" class="btn btn-light list">Sent</button>
-          <button type="button" class="btn btn-light list">Drafts</button>
-          <button type="button" class="btn btn-light list">Spam</button>
+          <h6 class="emily">Emily Sailor</h6>
+          <button type="button" class="btn btn-danger list">Inbox</button>
+          <button type="button" class="btn btn-danger list">Important</button>
+          <button type="button" class="btn btn-danger list">Sent</button>
+          <button type="button" class="btn btn-danger list">Drafts</button>
+          <button type="button" class="btn btn-danger list">Spam</button>
+          <button type="button" class="btn btn-light compose"><strong>Compose</strong></button>
         </div>
 
  <!-- The inbox where you next few email await you -->
 
-        <div class="col-sm-12 col-md-8 col-lg-4  email">
+        <div class="col-sm-12 col-md-10 col-lg-4  email">
 
         <div class="won"> 
           <h5> <strong>Totally legit site</strong></h5>
@@ -102,10 +102,14 @@
               trying this yourself. Please come home soon!</h6>
               <h6>~ Henry Sailor</h6>
         
-          </div>
+              <button type="button" class="btn btn-light list">Reply -></button>
+              <button type="button" class="btn btn-light list">Forward</button>
+              <textarea class="form-control text" id="exampleFormControlTextarea1"  placeholder="Enter text here" rows="3"></textarea>
+            </div>
         
     </div>
-</div>
+ 
+  </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>

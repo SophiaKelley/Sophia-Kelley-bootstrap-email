@@ -8,6 +8,8 @@ body{
 
 .option{
     background-color: rgb(216, 67, 67);
+    display: flex;
+    justify-content: flex-start;
 }
 
 .email{
@@ -64,12 +66,15 @@ z-index: -1;
     border-radius: 50%;
     width: 60px;
     height: 60px;
-    margin-left: 25px;
     margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .emily {
-    margin-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+   
 }
 
 .text{
